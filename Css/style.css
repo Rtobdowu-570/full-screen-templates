@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    line-height: 1.1;
+}
+
+#showcase{
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/08/04/58/sunset-8113697_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+
+#showcase h1{
+    font-size: 45px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+
+.test{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.small{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.button{
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: #333;
+    color: #fff;
+    background-color: #ffffffe2;
+}
+
+#section-a{
+    background-color: #926239;
+    color: #fff;
+    padding: 20px;
+}
+
+#section-b{
+    padding: 20px;
+}
+
+#section-c{
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background-color: #926239;
+    color: #fff;
+}
